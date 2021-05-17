@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+html,
+body {
+  background-image: url("./img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: white;
+  padding: 60px;
+  font-size: 30px;
+}
+
+.ourProducts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.productItem {
+  border: 15px #efcfc4 solid;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #bdded2;
+}
+
+.productItem img {
+  width: 100%;
+  height: auto;
+}
+
+article {
+  background-color: rgba(255, 255, 255, 0.75);
+
+  margin: 10%;
+  padding: 10%;
+
+  font-size: 15px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-family: "Great Vibes", cursive;
+  font-weight: lighter;
+  font-size: 20px;
+
+  background-color: #efcfc4;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+h3 {
+  text-align: left;
+  font-family: "Raleway", sans-serif;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  padding: 10px;
+}
+
+a {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+
+  background-color: #bdded2;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #c7e8d9;
+}
+
+.TAC,
+.about {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  color: black;
+
+  background-color: #bdded2;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.TAC:hover,
+.about:hover {
+  background-color: #c7e8d9;
+}
+
+.TACtxt {
+  overflow-y: scroll;
+  height: 18rem;
+  padding: 2rem;
+
+  font-size: 10px;
+  background-color: white;
+  border: white solid 5px;
+  border-radius: 10px;
+}
+
+.TACtxt::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+}
